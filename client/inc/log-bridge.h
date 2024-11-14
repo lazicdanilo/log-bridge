@@ -1,3 +1,6 @@
+#ifndef LOG_BRIDGE_H
+#define LOG_BRIDGE_H
+
 #include <stdarg.h> /* Needed for va_start and va_end */
 #include <stdint.h>
 
@@ -55,3 +58,5 @@ void log_bridge_init(LOG_BRIDGE_PRINT print_fn);
 void log_bridge_send(log_lvl_t log_level, char* msg, ...);
 void log_bridge_pause();
 void log_bridge_resume();
+
+#endif /* LOG_BRIDGE_H */
