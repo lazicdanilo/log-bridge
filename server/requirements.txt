@@ -1,0 +1,10 @@
+# requirements.txt - Base packages for the project
+
+# For the command line interface
+click==8.1.7
+
+# For USART communication
+pyserial==3.4
+
+# For colored output
+colorama==0.4.6
